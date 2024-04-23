@@ -1,0 +1,76 @@
+.body {
+    height: 1194px;
+    width: 1440px;
+    background-color: gray;
+}
+
+.back{
+    position: absolute;
+    height: 1194px;
+    width: 1440px;
+    background-size: cover;
+    background-image: url('./Img/back.jpg');
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 84px;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #558EFFE1;
+}
+
+.date {
+    position: absolute;
+    width: 64px;
+    height: 67px;
+    margin-top: 8px;
+    margin-left: 825px;
+    border-radius: 8px;
+}
+
+.location {
+    position: absolute;
+    width: 512px;
+    height: 67px;
+    margin-left: 896px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.left {
+    position: absolute;
+    width: 420px;
+    height: 1213px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.graph{
+    position: absolute;
+    width: 975px;
+    height: 262px;
+    margin-left: 429px;
+    margin-top: 95px;
+    border-radius: 24px;
+}
+
+.map{
+    position: absolute;
+    width: 970px;
+    height: 738px;
+    margin-left: 432px;
+    margin-top: 381px;
+    border-radius: 24px;
+}
+
+.burger{
+    position: absolute;
+    width: 44px;
+    height: 29px;
+    margin-top: 28px;
+    margin-left: 39px;
+}
